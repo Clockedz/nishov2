@@ -54,9 +54,9 @@ const arrowLeft = (
     <path
       d="M39.0625 9.375L23.4375 25L39.0625 40.625"
       stroke="black"
-      stroke-width="3"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="3"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <line
       y1="-1.5"
@@ -64,7 +64,7 @@ const arrowLeft = (
       y2="-1.5"
       transform="matrix(0 -1 -1 0 2.08337 43.75)"
       stroke="black"
-      stroke-width="3"
+      strokeWidth="3"
     />
   </svg>
 );
@@ -80,9 +80,9 @@ const arrowRight = (
     <path
       d="M10.9375 9.375L26.5625 25L10.9375 40.625"
       stroke="black"
-      stroke-width="3"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="3"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <line
       x1="46.4167"
@@ -90,7 +90,7 @@ const arrowRight = (
       x2="46.4167"
       y2="6.25"
       stroke="black"
-      stroke-width="3"
+      strokeWidth="3"
     />
   </svg>
 );

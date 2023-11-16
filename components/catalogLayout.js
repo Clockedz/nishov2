@@ -28,13 +28,15 @@ export default function CatalogLayout({ props }) {
     },
   ]);
 
-  const sizeOptions = {
-    1: "S",
-    2: "M",
-    3: "L",
-    4: "XL",
-    5: "2XL",
-  };
+  const sizeOptions = React.useMemo(() => {
+    return {
+      1: "S",
+      2: "M",
+      3: "L",
+      4: "XL",
+      5: "2XL",
+    };
+  }, []);
   const [size, setSize] = React.useState(1);
 
   function handleSize(direction) {
@@ -57,7 +59,7 @@ export default function CatalogLayout({ props }) {
     } else {
       setIsShirt(false);
     }
-  }, []);
+  }, [props.header]);
 
   React.useEffect(() => {
     const x = props.header.toLowerCase();
@@ -73,7 +75,14 @@ export default function CatalogLayout({ props }) {
         productID: props.shopifyIDs[sizeOptions[size]],
       },
     ]);
-  }, [size]);
+  }, [
+    size,
+    sizeOptions,
+    props.header,
+    props.price,
+    props.price2XL,
+    props.shopifyIDs,
+  ]);
 
   function handleCart() {
     const existingItemsJSON = Cookies.get("items");

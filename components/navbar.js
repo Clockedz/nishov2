@@ -56,11 +56,14 @@ export default function Navbar() {
                 stiffness: 130,
                 damping: 20,
                 delay: 0.3,
-                ease: [0.43, 0.13, 0.23, 0.96], // Custom ease-in-out curve
+                ease: [0.43, 0.13, 0.23, 0.96],
               }}
               className="font-OriginBold text-black tracking-[2.5px] absolute top-0"
             >
-              <h1 className="text-[250px] z-40">// COLLECTONS</h1>
+              <h1 className="text-[250px] z-40">
+                <span>/</span>
+                <span>/</span> COLLECTONS
+              </h1>
             </motion.div>
             <motion.div
               initial={{ x: -1000 }}
@@ -70,12 +73,13 @@ export default function Navbar() {
                 stiffness: 130,
                 damping: 20,
                 delay: 0.3,
-                ease: [0.43, 0.13, 0.23, 0.96], // Custom ease-in-out curve
+                ease: [0.43, 0.13, 0.23, 0.96],
               }}
               className="font-OriginBold text-black tracking-[2.5px] absolute top-0"
             >
               <h1 className="stroked text-[250px] ml-3 mt-2 text-white">
-                // COLLECTONS
+                <span>/</span>
+                <span>/</span> COLLECTONS
               </h1>
             </motion.div>
             <motion.div
@@ -87,14 +91,17 @@ export default function Navbar() {
                 stiffness: 130,
                 damping: 20,
                 delay: 0.5,
-                ease: [0.43, 0.13, 0.23, 0.96], // Custom ease-in-out curve
+                ease: [0.43, 0.13, 0.23, 0.96],
               }}
             >
               <Link href={"/partial-eclipse"}>
                 <div className="relative flex items-end flex-col">
                   <h1 className="font-OriginBold text-[250px] max-h-min">
-                    <span className="font-Origin text-[250px]">//</span> PARTIAL
-                    ECLIPSE
+                    <span className="font-Origin text-[250px]">
+                      <span>/</span>
+                      <span>/</span>
+                    </span>
+                    PARTIAL ECLIPSE
                   </h1>
                   <p className="right-0 font-keifont text-[#4A4A4A] tracking-[7px] text-[35px] -mt-32">
                     ぶぶんにっしょく
@@ -105,7 +112,10 @@ export default function Navbar() {
               <Link href={"/ganymede"}>
                 <div className="relative flex items-end flex-col">
                   <h1 className="font-OriginBold text-[250px] max-h-min">
-                    <span className="font-Origin text-[250px]">//</span>{" "}
+                    <span className="font-Origin text-[250px]">
+                      <span>/</span>
+                      <span>/</span>
+                    </span>
                     GANYMEDE
                   </h1>
                   <p className="right-0 font-keifont text-[#4A4A4A] tracking-[7px] text-[35px] -mt-32">
@@ -135,8 +145,14 @@ export default function Navbar() {
             className="font-OriginBold flex text-[125px] cursor-pointer left-0"
             onClick={handleNavClick}
           >
-            <p>//</p>
-            <p className="stroked ml-2 mt-1 absolute">//</p>
+            <p>
+              <span>/</span>
+              <span>/</span>
+            </p>
+            <p className="stroked ml-2 mt-1 absolute">
+              <span>/</span>
+              <span>/</span>
+            </p>
           </div>
           <div className="flex items-center justify-center gap-7">
             <Link href={"/about"}>

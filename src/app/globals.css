@@ -16,12 +16,80 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: "DELIRIUM";
+  src: url("../../public/fonts/DELIRIUM NCV.ttf");
+  font-weight: normal
 }
+
+@font-face {
+  font-family: "Hikou";
+  src: url("../../public/fonts/Hikou Regular.otf");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "keifont";
+  src: url("../../public/fonts/keifont.ttf");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "Origin-Sans-Bold";
+  src: url("../../public/fonts/OriginSansBold.ttf");
+  font-weight: bold
+}
+
+@font-face {
+  font-family: "Origin-Sans";
+  src: url("../../public/fonts/OriginSansRegular.ttf");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "Origin-Sans-Light";
+  src: url("../../public/fonts/OriginSansLight.ttf");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "Vancouver";
+  src: url("../../public/fonts/Vancouver-Gothic.ttf");
+  font-weight: normal
+}
+
+
+body {
+background-color: black;
+color: white;
+}
+
+.stroked{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 5px black; /* Webkit browsers (Safari) */
+}
+
+.main-nav{
+  height: 10%;
+  z-index: 99;
+}
+
+.cart-button:hover{
+  background-color: black;
+  color: #FFFEF8;
+}
+
+.cart-button{
+  transition-duration: 0.3s;
+  
+}
+
+.nav-product{
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* .main-image{
+  
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+} */

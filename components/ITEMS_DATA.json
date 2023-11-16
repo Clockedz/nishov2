@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "header": "PARTIAL ECLIPSE TEE - BLACK",
+    "price": 35,
+    "color": "Black",
+    "subtitle": "PREMIUM TEE",
+    "descriptions": {
+      "main": "Made from 100% organic ring-spun cotton, this unisex t-shirt is a total must-have. It's high-quality, super comfy, and best of all—eco-friendly.",
+      "head1": "• Unisex fit",
+      "head2": "• Single jersey, regular fit",
+      "head3": "• 100% organic ring-spun cotton",
+      "head4": "• Wide double-needle topstitch on the sleeves and bottom hems"
+    },
+
+    "disclaimer": "*To ensure best fit after washing, we recommend to order 1 size larger than your usual fit*",
+    "eco": true,
+    "embroidered": false,
+    "url": "partial-eclipse-black-t-shirt",
+    "collection": "PARTIAL ECLIPSE",
+    "images": {
+      "front": "/assets/PE_SHIRT_BLACK/front.png",
+      "back": "/assets/PE_SHIRT_BLACK/back.png",
+      "hang": "/assets/PE_SHIRT_BLACK/hang.png",
+      "closeup": "/assets/PE_SHIRT_BLACK/closeup.png",
+      "model": "/assets/PE_SHIRT_BLACK/models/model.png"
+    },
+    "shopifyIDs": {
+      "base": "8469526085916",
+      "S": "45902618493212",
+      "M": "45902618525980",
+      "L": "45902618558748",
+      "XL": "45902618591516",
+      "XXL": "45902618624284"
+    }
+  },
+  {
+    "id": 2,
+    "header": "PARTIAL ECLIPSE TEE - WHITE",
+    "price": 35,
+    "color": "White",
+    "subtitle": "PREMIUM TEE",
+    "descriptions": {
+      "main": "Made from 100% organic ring-spun cotton, this unisex t-shirt is a total must-have. It's high-quality, super comfy, and best of all—eco-friendly.",
+      "head1": "• Unisex fit",
+      "head2": "• Single jersey, regular fit",
+      "head3": "• 100% organic ring-spun cotton",
+      "head4": "• Wide double-needle topstitch on the sleeves and bottom hems"
+    },
+    "disclaimer": "*To ensure best fit after washing, we recommend to order 1 size larger than your usual fit*",
+    "eco": true,
+    "embroidered": false,
+    "url": "partial-eclipse-white-t-shirt",
+    "collection": "PARTIAL ECLIPSE",
+    "images": {
+      "front": "/assets/PE_SHIRT_WHITE/front.png",
+      "back": "/assets/PE_SHIRT_WHITE/back.png",
+      "hang": "/assets/PE_SHIRT_WHITE/hang.png",
+      "closeup": "/assets/PE_SHIRT_WHITE/closeup.png"
+    },
+    "shopifyIDs": {
+      "base": "8469521072412",
+      "S": "45902604108060",
+      "M": "45902604140828",
+      "L": "45902604173596",
+      "XL": "45902604206364",
+      "XXL": "45902604239132"
+    }
+  },
+  {
+    "id": 3,
+    "header": "GANYMEDE TEE - DARK GRAY",
+    "price": 30,
+    "color": "Dark Gray",
+    "subtitle": "PREMIUM TEE",
+    "descriptions": {
+      "main": "Made from 100% organic ring-spun cotton, this unisex t-shirt is a total must-have. It's high-quality, super comfy, and best of all—eco-friendly.",
+      "head1": "• Unisex fit",
+      "head2": "• Single jersey, regular fit",
+      "head3": "• 100% organic ring-spun cotton",
+      "head4": "• Wide double-needle topstitch on the sleeves and bottom hems"
+    },
+    "disclaimer": "*To ensure best fit after washing, we recommend to order 1 size larger than your usual fit*",
+    "eco": true,
+    "embroidered": false,
+    "url": "nisho-dark-gray-t-shirt",
+    "collection": "CLASSIC TEE",
+    "images": {
+      "front": "/assets/NISHO_TEE_GRAY_D/front.png",
+      "back": "/assets/NISHO_TEE_GRAY_D/back.png",
+      "hang": "/assets/NISHO_TEE_GRAY_D/hang.png",
+      "closeup": "/assets/NISHO_TEE_GRAY_D/closeup.png"
+    },
+
+    "shopifyIDs": {
+      "base": "8469524873500",
+      "S": "45902615183644",
+      "M": "45902615216412",
+      "L": "45902615249180",
+      "XL": "45902615281948",
+      "XXL": "45902615314716"
+    }
+  },
+  {
+    "id": 4,
+    "header": "GANYMEDE TEE - LIGHT GRAY",
+    "price": 30,
+    "color": "Light Gray",
+    "subtitle": "PREMIUM TEE",
+    "descriptions": {
+      "main": "Made from 100% organic ring-spun cotton, this unisex t-shirt is a total must-have. It's high-quality, super comfy, and best of all—eco-friendly.",
+      "head1": "• Unisex fit",
+      "head2": "• Single jersey, regular fit",
+      "head3": "• 100% organic ring-spun cotton",
+      "head4": "• Wide double-needle topstitch on the sleeves and bottom hems"
+    },
+    "disclaimer": "*To ensure best fit after washing, we recommend to order 1 size larger than your usual fit*",
+    "eco": true,
+    "embroidered": false,
+    "url": "nisho-light-gray-t-shirt",
+    "collection": "CLASSIC TEE",
+    "images": {
+      "front": "/assets/NISHO_TEE_GRAY_L/front.png",
+      "back": "/assets/NISHO_TEE_GRAY_L/back.png",
+      "hang": "/assets/NISHO_TEE_GRAY_L/hang.png",
+      "closeup": "/assets/NISHO_TEE_GRAY_L/closeup.png"
+    },
+    "shopifyIDs": {
+      "base": "8469525332252",
+      "S": "45902616068380",
+      "M": "45902616101148",
+      "L": "45902616133916",
+      "XL": "45902616166684",
+      "XXL": "45902616199452"
+    }
+  },
+  {
+    "id": 5,
+    "header": "NISHO DENIM JACKET - WHITE",
+    "price": 80,
+    "price2XL": 82,
+    "color": "White",
+    "subtitle": "PREMIUM JACKET",
+    "descriptions": {
+      "head1": "99% ring-spun combed cotton, 1% spandex",
+      "head2": "Embroidered design",
+      "head3": "Regular fit",
+      "head4": "Fitted with side and chest pockets with buttons"
+    },
+    "disclaimer": "*Measurements may vary up to 2 inches*",
+    "eco": false,
+    "embroidered": true,
+    "url": "nisho-denim-jacket-white",
+    "collection": "CLASSIC JACKET",
+    "images": {
+      "front": "/assets/NISHO_JACKET_WHITE/front.png",
+      "front2": "/assets/NISHO_JACKET_WHITE/front2.png",
+      "back": "/assets/NISHO_JACKET_WHITE/back.png",
+      "hang": "/assets/NISHO_JACKET_WHITE/hang.png",
+      "closeup": "/assets/NISHO_JACKET_WHITE/closeup.png"
+    },
+    "shopifyIDs": {
+      "base": "8459912249628",
+      "S": "45867788534044",
+      "M": "45867788566812",
+      "L": "45867788599580",
+      "XL": "45867788632348",
+      "XXL": "45867788665116"
+    }
+  },
+  {
+    "id": 6,
+    "header": "NISHO JACKET - BLACK",
+    "price": 80,
+    "price2XL": 82,
+    "color": "Black",
+    "subtitle": "PREMIUM JACKET",
+    "descriptions": {
+      "head1": "99% ring-spun combed cotton, 1% spandex",
+      "head2": "Embroidered design",
+      "head3": "Regular fit",
+      "head4": "Fitted with side and chest pockets with buttons"
+    },
+    "disclaimer": "*Measurements may vary up to 2 inches*",
+    "eco": false,
+    "embroidered": true,
+    "url": "nisho-denim-jacket-black",
+    "collection": "CLASSIC JACKET",
+    "images": {
+      "front": "/assets/NISHO_JACKET_BLACK/front.png",
+      "front2": "/assets/NISHO_JACKET_BLACK/front2.png",
+      "back": "/assets/NISHO_JACKET_BLACK/back.png",
+      "hang": "/assets/NISHO_JACKET_BLACK/hang.png",
+      "closeup": "/assets/NISHO_JACKET_BLACK/closeup.png"
+    },
+    "shopifyIDs": {
+      "base": "8459909234972",
+      "S": "45867757994268",
+      "M": "45867758027036",
+      "L": "45867758059804",
+      "XL": "45867758092572",
+      "XXL": "45867758125340"
+    }
+  }
+]
